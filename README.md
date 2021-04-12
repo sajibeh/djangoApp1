@@ -1,1 +1,1 @@
-# djangoApp1 Django Shop Coding..
+# djangoApp1 - Django Shop Coding..
