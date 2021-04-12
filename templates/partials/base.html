@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include 'partials/headtag.html' %}
+  </head>
+  <body>
+    <!-- ==========================  HEADER ============================ -->
+    {% include 'partials/header.html' %}
+
+    <!-- ============================ BANNER ============================= -->
+    {% include 'partials/banner.html' %}
+
+
+    <!-- ========================= CONTENT  ========================= -->
+    {% block content %}
+    {% endblock %}
+
+    <!-- ========================= FOOTER ========================= -->
+    {% include 'partials/footer.html' %}
+
+  </body>
+</html>
